@@ -12,54 +12,152 @@
             padding: 0;
         }
         #navigation{
-            width: 100%;
-            height: 50px;
-            background-color: black;
+            display: flex;
             position: fixed;
+            background-color: blue;
+            height: 50px;
             top:0;
             left: 0;
+            width: 100%;
+        }
+        #navigation_part{
+            list-style-type: none;
+            width: 100%;
+        }
+        #brand{
+            height: 100%;
+            background-color: blue;
+            font-family: 'Brush Script MT', cursive;
+            color: white;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
         #contents{
-           list-style-type: none;
-           width: 50%;
-           position: right;
-           display:inline;
-           color:red;
-           font-size: 20px;
-           margin-top: 15px;
-           margin-bottom: 15px;
-           text-align: right;
+            height: 100%;
+            background-color: blue;
+            color:white;
+            font-size: 30px;
+            text-align: right;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
-        #brand {
-            display: inline;
-            width: 50%;
-            color: white;
-            position: relative;
-            font-size: large;
-            text-align: left;
-        }
+
         #navigation li{
            display: inline;
            text-align: center;
            margin: 0 10px 0 0;
         }
 
-        #navegador li a:hover{
-
+        #presentation{
+            display: flex;
+            position: fixed;
+            top: 60px;
+            left: 0;
+            height: 420px;
+            width: 100%;
+            text-align: center;
+        }
+        #name{
+            width: 100%;
+            text-align: center;
+        }
+        #name_h{
+            display: flexbox;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            width: 100%;
+            color: blue;
+            font-size: 4cm;
+            font-family: 'Brush Script MT', cursive;
+            text-align: center;
+        }
+        hr{
+            display: flex;
+            position: fixed;
+            top: 310px;
+            margin-left: 20%;
+            width: 60%;
+            height: 5px;
+            background-color: blue;
+            border-radius: 5cm;
+        }
+        #work{
+            width: 100%;
+            text-align: left;
+        }
+        #work_h{
+            display:flexbox;
+            position: fixed;
+            top: 270px;
+            left:0;
+            margin-left: 37%;
+            width: 100%;
+            color:blue;
+            font-size: 2cm;
+            font-family: 'Brush Script MT', cursive;
+            text-align: left;
+        }
+        #main{
+            display: flex;
+            position: fixed;
+            justify-content: space-between;
+            background-color: blue;
+            height: 800px;
+            top:500px;
+            left: 0;
+            width: 100%;
+        }
+        #main_parts{
+            width: 50%;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border: black;
+            border-radius: 10px;
+            background-color: white;
+        }
+        #presentation_h{
+            color: blue;
+            text-align: center;
+            font-size: 1cm;
         }
            </style>
 
 </head>
 <body>
     <div id="navigation">
-        <ul id="brand">
-            <li>MAM</li>
-        </ul>
-        <ul id="contents">
-            <li>Inicio</li>
-            <li>CV</li>
-            <li>Contacto</li>
-        </ul>
+        <div id="navigation_part">
+            <ul id="brand">
+                <li>MAM</li>
+            </ul>
+        </div>
+        <div id="navigation_part">
+            <ul id="contents">
+                <li>Home</li>
+                <li>CV</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+    <div id="presentation">
+        <div id="name">
+            <h1 id="name_h">Mikel Arina Marcos</h1>
+        </div>
+        <hr>
+        <div id="work">
+            <h3 id="work_h">Cloud Deployer</h3>
+        </div>
+    </div>
+    <div id="main">
+        <div id="main_parts">
+            <h2 id="presentation_h">Who I am?</h2>
+        </div>
+        <div id="main_parts">
+            <p>Adiós</p>
+        </div>
     </div>
 </body>
 </html>
