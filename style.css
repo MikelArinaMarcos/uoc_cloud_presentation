@@ -1,0 +1,124 @@
+#html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: auto;
+}
+#navigation{
+    display: flex;
+    position: fixed;
+    background-color: blue;
+    height: 50px;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+#navigation_part{
+    list-style-type: none;
+    width: 100%;
+}
+#brand{
+    height: 100%;
+    background-color: blue;
+    font-family: 'Brush Script MT', cursive;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contents{
+    height: 100%;
+    background-color: blue;
+    color:white;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#navigation li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+
+#presentation{
+    display: flex;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 420px;
+    width: 100%;
+    text-align: center;
+}
+#name{
+    width: 100%;
+    text-align: center;
+}
+#name_h{
+    display: flexbox;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    width: 100%;
+    color: blue;
+    font-size: 4cm;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}
+hr{
+    display: flex;
+    position: fixed;
+    top: 310px;
+    margin-left: 20%;
+    width: 60%;
+    height: 5px;
+    background-color: blue;
+    border-radius: 5cm;
+}
+#work{
+    width: 100%;
+    text-align: left;
+}
+#work_h{
+    display:flexbox;
+    position: fixed;
+    top: 270px;
+    left:0;
+    margin-left: 37%;
+    width: 100%;
+    color:blue;
+    font-size: 2cm;
+    font-family: 'Brush Script MT', cursive;
+    text-align: left;
+}
+#main{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: blue;
+    height: 800px;
+    top:500px;
+    left: 0;
+    width: 100%;
+}
+#main_parts{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: black;
+    border-radius: 20px;
+    background-color: white;
+}
+#presentation_h{
+    color: blue;
+    text-align: center;
+    font-size: 1cm;
+}
+p{
+    color: blue;
+    font-size: 0.5cm;
+    margin-left: 10px;
+    margin-right: 10px;
+}
