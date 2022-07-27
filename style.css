@@ -1,14 +1,8 @@
-#html{
-    margin: 0;
-    padding: 0;
-    scroll-behavior: auto;
-}
-
 /************************************************/
 /*         NAVIGATION BAR                       */
 /************************************************/
 
-.header{
+.header{ /* Navigation container */
     height: 45px;
     width: 100%;
     left: 0;
@@ -18,7 +12,7 @@
     text-align: center;
     z-index: 2;
 }
-.index{
+.index{ /* Navigation bar */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,12 +21,12 @@
     width: 100%;
     height: 45px;
 }
-.index_c{
+.index_c{ /* Links in navigation bar */
     float: right;
     padding: 10px;
     padding-bottom: 10px;
 }
-.index_c a{
+.index_c a{ /* Appearance of links */
     color: white;
     text-decoration: none;
 }
